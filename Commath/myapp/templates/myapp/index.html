@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Computational Mathematics</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'myapp/css/font-awesome.min.css' %}">
+    <link rel="stylesheet" href="{% static 'myapp/css/animate.css' %}">
+    <link href="{% static 'myapp/css/prettyPhoto.css' %}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="{% static 'myapp/css/style.css' %}" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Computational Mathematics</a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Home</a></li>
+                <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">คำนวณ สมการ <span
+                            class="caret"></span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">แปลงเลขทศนิยมเป็นEEE 32BIT</a></li>
+                        <li><a href="#">แปลงเลขทศนิยมเป็นEEE 62BIT</a></li>
+                        <li><a href="#">แก้ระบบสมการเชิงเส้น SAX = BS</a></li>
+                        <li><a href="#">แก้ระบบสมการเชิงเส้น SAX = BS</a></li>
+                        <li><a href="#">DIFFERENTIATION</a></li>
+                        <li><a href="#">INTEGRATION</a></li>
+                        <li><a href="#">ROOT-FINDING</a></li>
+                    </ul>
+                </li>
+
+            </ul>
+            
+        </div>
+    </nav>
+    <div class="feature">
+            <div class="container">
+                <div class="text-center">
+                    <div class="col-md-4">
+                        <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="500ms"
+                            data-wow-delay="300ms">
+                            <a href="/differentiation"> <i class="fa fa-gear"></i></a>
+                            <h2>Differentiation</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="500ms"
+                            data-wow-delay="300ms">
+                            <a href="/integration"> <i class="fa fa-gears"></i> </a>
+                            <h2>Integration</h2>
+                           
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="500ms"
+                            data-wow-delay="300ms">
+                            <a href="/rootfinding"> <i class="	fa fa-search"></i></a>
+                            <h2>Root-finding</h2>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="500ms"
+                            data-wow-delay="600ms">
+                            <a href="/32bit"> <i class="fa fa-tv"></i></a>
+                            <h2>แปลงเลขทศนิยมเป็นEEE 32BIT</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="500ms"
+                            data-wow-delay="600ms">
+                            <a href="/64bit"> <i class="fa fa-percent"></i> </a>
+                            <h2>แปลงเลขทศนิยมเป็นEEE 62BIT</h2>
+                            
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="hi-icon-wrap hi-icon-effect wow fadeInDown" data-wow-duration="500ms"
+                            data-wow-delay="400ms">
+                            <a href="/AxBs"> <i class="fa fa-plus-square-o"></i></a>
+                            <h2>แก้ระบบสมการเชิงเส้น SAX = BS</h2>
+                
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+</body>
+
+</html>
